@@ -1,0 +1,22 @@
+/*
+
+>> VARIABLES
+
+*/
+
+:root {
+
+  /* Fonte */
+
+  --fonte-regular: '';
+
+  /* Cores */
+
+  --cor-primaria: #06070c;
+  --cor-secundaria: #06070c;
+  --cor-terciaria: #06070c;
+
+  --cor-branco: #FFFFFF;
+  --cor-preto: #000000;
+
+}
