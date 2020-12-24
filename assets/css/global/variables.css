@@ -8,13 +8,18 @@
 
   /* Fonte */
 
-  --fonte-regular: '';
+  --fonte-estilo: 'allura_regular';
+  --fonte-medium: 'gilroy_medium';
+  --fonte-bold: 'gilroy_bold';
 
   /* Cores */
 
-  --cor-primaria: #06070c;
-  --cor-secundaria: #06070c;
-  --cor-terciaria: #06070c;
+  --cor-primaria: #32676d;
+  --cor-secundaria: #e6b5a8;
+
+  --cor-cinza-1: #edf0f5;
+  --cor-cinza-2: #a9b1b7;
+  --cor-cinza-3: #4f5359;
 
   --cor-branco: #FFFFFF;
   --cor-preto: #000000;

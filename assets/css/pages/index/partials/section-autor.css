@@ -1,0 +1,13 @@
+/*
+
+>> INDEX >> SECTION > AUTOR
+
+*/
+
+section.autor {
+  min-height: 300px;
+  background-color: var(--cor-cinza-1);
+  background-image: url('../../../../images/pages/index/background-autor.png');
+  background-size: cover;
+  background-position: bottom center;
+}

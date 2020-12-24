@@ -3,3 +3,11 @@
 >> INDEX >> HEADER
 
 */
+
+header {
+  min-height: 300px;
+  background-color: var(--cor-branco);
+  background-image: url('../../../../images/pages/index/background-header.png');
+  background-size: cover;
+  background-position: bottom center;
+}

@@ -5,17 +5,25 @@
 */
 
 @font-face {
-  font-family: '';
+  font-family: 'allura_regular';
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url('') format('woff');
+  src: url('../../docs/fonts/allura-regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: '';
+  font-family: 'gilroy_bold';
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url('') format('woff');
+  src: url('../../docs/fonts/gilroy-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'gilroy_medium';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../../docs/fonts/gilroy-medium.woff') format('woff');
 }

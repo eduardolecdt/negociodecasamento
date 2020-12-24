@@ -1,0 +1,13 @@
+/*
+
+>> INDEX >> SECTION > GARANTIA
+
+*/
+
+section.garantia {
+  min-height: 300px;
+  background-color: var(--cor-cinza-1);
+  background-image: url('../../../../images/pages/index/background-garantia.png');
+  background-size: cover;
+  background-position: bottom center;
+}

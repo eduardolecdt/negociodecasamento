@@ -1,0 +1,13 @@
+/*
+
+>> INDEX >> SECTION > PRECO
+
+*/
+
+section.preco {
+  min-height: 300px;
+  background-color: var(--cor-secundaria);
+  background-image: url('../../../../images/pages/index/background-preco.png');
+  background-size: cover;
+  background-position: top center;
+}

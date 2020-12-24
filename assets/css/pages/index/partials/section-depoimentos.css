@@ -1,0 +1,10 @@
+/*
+
+>> INDEX >> SECTION > DEPOIMENTOS
+
+*/
+
+section.depoimentos {
+  min-height: 300px;
+  background-color: var(--cor-primaria);
+}

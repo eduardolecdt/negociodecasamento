@@ -1,0 +1,13 @@
+/*
+
+>> INDEX >> SECTION > PUBLICO
+
+*/
+
+section.publico {
+  min-height: 300px;
+  background-color: var(--cor-cinza-1);
+  background-image: url('../../../../images/pages/index/background-publico.png');
+  background-size: cover;
+  background-position: bottom center;
+}
