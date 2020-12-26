@@ -62,9 +62,10 @@ header .texto {
 header .texto h1 {
   font-family: var(--fonte-medium);
   font-size: 1.5rem;
+  line-height: 1.5;
   color: var(--cor-cinza-2);
   width: 100%;
-  max-width: 600px;
+  max-width: 450px;
 }
 
 header .texto h1 span {
@@ -82,6 +83,7 @@ header .texto h1 span.secundaria {
 header .texto p {
   font-family: var(--fonte-estilo);
   font-size: 1.5rem;
+  line-height: 1.5;
   color: var(--cor-secundaria);
   padding: 15px 0px;
 }
@@ -130,6 +132,7 @@ header .modal {
   visibility: hidden;
   pointer-events: none;
   transition: all 0.3s;
+  z-index: 5;
 }
 
 header .modal.mostrar {
