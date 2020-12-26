@@ -17,16 +17,26 @@
     })
   }
 
-  // Habilitar Loading
+  // Button data-url
 
-  function habilitarLoading () {
-    const __body = document.body
-    const __divLoading = document.querySelector('div.loading')
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        __body.classList.remove('carregando')
-        __divLoading.classList.add('ocultar')
-      }, 1000)
+  function toExternalPage (url) {
+    if (!url) return
+
+    const a = document.createElement('a')
+    a.rel = 'noopener noreferrer nofollow'
+    a.target = '_blank'
+    a.href = url
+    a.click()
+  }
+
+  function habilitarCliqueBotaoComDataUrl () {
+    window.addEventListener('click', (evento) => {
+      if (evento.target.nodeName !== 'BUTTON') return
+
+      const url = evento.target.getAttribute('data-url')
+      if (!url) return
+
+      toExternalPage(url)
     })
   }
 
@@ -40,7 +50,7 @@
   // Start
 
   ativarLazyLoading()
-  habilitarLoading()
   bloquearDragDrop()
+  habilitarCliqueBotaoComDataUrl()
 
 }())

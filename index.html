@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 
   <!-- Title -->
   <title>Seu Negócio de Casamento Digital</title>
@@ -84,6 +84,28 @@
 
   <!-- HEADER -->
   <header>
+    <!-- LOGO -->
+    <img class="logo" src="./assets/images/pages/index/logo.svg">
+    <!-- Imagem -->
+    <div class="imagem">
+      <img name="abrir_video" src="./assets/images/pages/index/notebook-header.png">
+      <input name="url_video" type="hidden" value="https://www.youtube.com/embed/qXrJqMhvUfs">
+    </div>
+    <!-- Texto -->
+    <div class="texto">
+      <h1>Tenha mais <span class="primaria">PRODUTIVIDADE</span> e <span class="secundaria">PRESENÇA DIGITAL</span> com ferramentas simples e gratuitas!</h1>
+      <p>Você vai saber todos os meus segredos.</p>
+      <button type="button" data-url="https://google.com">EU <span>QUERO</span></button>
+    </div>
+    <!-- Modal -->
+    <div class="modal" name="modal">
+      <div class="video">
+        <div class="iframe">
+          <iframe name="video" src="" allowfullscreen></iframe>
+        </div>
+      </div>
+      <p name="fechar">Fechar Vídeo</p>
+    </div>
   </header>
 
   <!-- section FRASE -->
@@ -132,6 +154,7 @@
 
   <!-- JS Imports -->
   <script src="./assets/js/global/global.js"></script>
+  <script src="./assets/js/pages/index/modal-header.js"></script>
 
 </body>
 </html>
