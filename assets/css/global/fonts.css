@@ -27,3 +27,11 @@
   font-display: swap;
   src: url('../../docs/fonts/gilroy-medium.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'gilroy_regular';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../../docs/fonts/gilroy-regular.woff') format('woff');
+}

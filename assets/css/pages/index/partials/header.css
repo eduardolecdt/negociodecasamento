@@ -60,7 +60,7 @@ header .texto {
 }
 
 header .texto h1 {
-  font-family: var(--fonte-medium);
+  font-family: var(--fonte-regular);
   font-size: 1.5rem;
   line-height: 1.5;
   color: var(--cor-cinza-2);
@@ -69,7 +69,7 @@ header .texto h1 {
 }
 
 header .texto h1 span {
-  font-family: var(--fonte-bold);
+  font-family: var(--fonte-medium);
 }
 
 header .texto h1 span.primaria {
@@ -84,7 +84,7 @@ header .texto p {
   font-family: var(--fonte-estilo);
   font-size: 1.5rem;
   line-height: 1.5;
-  color: var(--cor-secundaria);
+  color: var(--cor-primaria);
   padding: 15px 0px;
 }
 
@@ -163,7 +163,7 @@ header .modal .video .iframe iframe {
 }
 
 header .modal p {
-  font-family: var(--fonte-medium);
+  font-family: var(--fonte-bold);
   font-size: 1rem;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
@@ -194,5 +194,8 @@ header .modal p:hover {
   }
   header .texto {
     padding: 0px 30px;
+  }
+  header .texto h1 {
+    font-size: 1.3rem;
   }
 }

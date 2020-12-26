@@ -23,12 +23,13 @@ section.frase img {
   bottom: -50px;
   width: 100%;
   max-width: 250px;
+  z-index: 1;
 }
 
 /* Texto */
 
 section.frase h2 {
-  font-family: var(--fonte-medium);
+  font-family: var(--fonte-regular);
   font-size: 1.5rem;
   line-height: 1.5;
   width: 100%;
@@ -37,7 +38,7 @@ section.frase h2 {
 }
 
 section.frase h2 span {
-  font-family: var(--fonte-bold);
+  font-family: var(--fonte-medium);
   color: var(--cor-secundaria);
 }
 
@@ -50,5 +51,8 @@ section.frase h2 span {
   section.frase img {
     right: 30px;
     max-width: 150px;
+  }
+  section.frase h2 {
+    font-size: 1.3rem;
   }
 }

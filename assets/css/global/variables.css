@@ -10,6 +10,7 @@
 
   --fonte-estilo: 'allura_regular';
   --fonte-medium: 'gilroy_medium';
+  --fonte-regular: 'gilroy_regular';
   --fonte-bold: 'gilroy_bold';
 
   /* Cores */
@@ -18,7 +19,7 @@
   --cor-secundaria: #e6b5a8;
 
   --cor-cinza-1: #edf0f5;
-  --cor-cinza-2: #a9b1b7;
+  --cor-cinza-2: #9da5ab;
   --cor-cinza-3: #4f5359;
 
   --cor-branco: #FFFFFF;
