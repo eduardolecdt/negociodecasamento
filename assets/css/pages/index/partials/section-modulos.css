@@ -23,7 +23,7 @@ section.modulos .linha {
   width: 5px;
   min-width: 5px;
   max-width: 5px;
-  height: 110%;
+  height: 115%;
   background-image: linear-gradient(to bottom, #edf0f5, #ffffff);
 }
 
@@ -172,5 +172,6 @@ section.modulos .quadros .quadro p {
   }
   section.modulos .linha {
     left: 75%;
+    height: 105%;
   }
 }
