@@ -13,7 +13,7 @@ section.autor {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 0px;
+  padding: 100px 0px 150px 0px;
   position: relative;
 }
 
