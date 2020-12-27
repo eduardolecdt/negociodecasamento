@@ -10,4 +10,84 @@ section.publico {
   background-image: url('../../../../images/pages/index/background-publico.png');
   background-size: cover;
   background-position: bottom center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 100px 25px 150px 25px;
+}
+
+/* Parte */
+
+section.publico .parte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+section.publico .parte h2 {
+  font-family: var(--fonte-bold);
+  font-size: 2rem;
+  color: var(--cor-primaria);
+}
+
+section.publico .parte h3 {
+  font-family: var(--fonte-medium);
+  font-size: 1.5rem;
+  color: var(--cor-secundaria);
+}
+
+section.publico .parte h4 {
+  font-family: var(--fonte-bold);
+  font-size: 2rem;
+  color: var(--cor-primaria);
+}
+
+section.publico .parte h4 span {
+  color: var(--cor-cinza-2);
+}
+
+section.publico .parte div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+section.publico .parte div img {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+section.publico .parte div p {
+  font-family: var(--fonte-regular);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 500px;
+  color: var(--cor-cinza-2);
+  padding: 0px 0px 0px 10px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  section.publico {
+    flex-direction: column-reverse;
+    padding: 70px 30px 200px 30px;
+  }
+  section.publico .parte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    padding: 30px 0px;
+  }
 }
