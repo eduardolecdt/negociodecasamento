@@ -7,4 +7,88 @@
 section.bonus {
   min-height: 300px;
   background-color: var(--cor-primaria);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+/* Texto */
+
+section.bonus h2 {
+  font-family: var(--fonte-estilo);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--cor-secundaria);
+}
+
+section.bonus h3 {
+  font-family: var(--fonte-regular);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--cor-branco);
+  padding: 0px 0px 40px 0px;
+}
+
+/* Quadros */
+
+section.bonus .quadros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  width: 100%;
+  max-width: 1050px;
+}
+
+section.bonus .quadros .quadro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px 15px;
+  flex: 1;
+  border-radius: 20px 0px 20px 0px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 220px;
+  position: relative;
+}
+
+section.bonus .quadros .quadro:nth-child(odd) {
+  border: 2px dashed var(--cor-secundaria);
+}
+
+section.bonus .quadros .quadro:nth-child(even) {
+  border: 2px dashed var(--cor-branco);
+}
+
+section.bonus .quadros .quadro img {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  box-shadow: 10px 10px 20px 0px rgb(0, 0, 0, 0.2);
+}
+
+section.bonus .quadros .quadro p {
+  font-family: var(--fonte-regular);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--cor-branco);
+  padding: 0px 0px 10px 0px;
+}
+
+section.bonus .quadros .quadro h4 {
+  font-family: var(--fonte-bold);
+  font-size: 1.4rem;
+  color: var(--cor-secundaria);
+  text-decoration: line-through;
 }
