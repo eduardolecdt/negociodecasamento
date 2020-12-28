@@ -7,4 +7,65 @@
 footer {
   min-height: 300px;
   background-color: var(--cor-primaria);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+/* Imagem */
+
+footer .imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+/* Partes */
+
+footer .partes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+footer .partes .parte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+footer .partes .parte h3 {
+  font-family: var(--fonte-bold);
+  font-size: 1.3rem;
+  color: var(--cor-secundaria);
+  width: 100%;
+  max-width: 170px;
+}
+
+footer .partes .parte button {
+  font-family: var(--fonte-medium);
+  font-size: 1.1rem;
+  color: var(--cor-branco);
+  margin: 25px 0px 0px 0px;
+  background-color: transparent;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  footer {
+    flex-direction: column;
+    padding: 100px 30px;
+  }
+  footer .partes {
+    flex-direction: column;
+  }
+  footer .partes .parte {
+    margin: 40px 0px 0px 0px;
+  }
 }
