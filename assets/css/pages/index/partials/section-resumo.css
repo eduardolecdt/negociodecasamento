@@ -10,4 +10,90 @@ section.resumo {
   background-image: url('../../../../images/pages/index/background-resumo.png');
   background-size: cover;
   background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0px 0px 0px;
+}
+
+/* Texto */
+
+section.resumo .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 0px 0px 0px 100px;
+  width: 100%;
+}
+
+section.resumo .texto h2 {
+  font-family: var(--fonte-bold);
+  font-size: 2.5rem;
+  color: var(--cor-primaria);
+  width: 100%;
+  max-width: 400px;
+}
+
+section.resumo .texto div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+section.resumo .texto div img {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+section.resumo .texto div p {
+  font-family: var(--fonte-medium);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 500px;
+  color: var(--cor-primaria);
+  padding: 0px 0px 0px 10px;
+}
+
+/* Imagem */
+
+section.resumo .imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+section.resumo .imagem img {
+  width: 100%;
+  max-width: 600px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+section.resumo .imagem img:hover {
+  opacity: 0.9;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  section.resumo {
+    flex-direction: column;
+    padding: 200px 0px 0px 0px;
+  }
+  section.resumo .texto {
+    padding: 0px 30px 50px 30px;
+  }
+  section.resumo .imagem {
+    padding: 0px 30px;
+  }
+  section.resumo .imagem img {
+    max-width: 400px;
+  }
 }
