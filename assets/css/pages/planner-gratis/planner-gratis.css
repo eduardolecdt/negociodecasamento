@@ -1,0 +1,14 @@
+/*
+
+>> PLANNER GRATIS
+
+*/
+
+@import '../../global/global.css';
+
+/* Partials */
+
+@import './partials/header.css';
+@import './partials/section-frase.css';
+@import './partials/section-autor.css';
+@import './partials/footer.css';

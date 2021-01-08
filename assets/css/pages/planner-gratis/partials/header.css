@@ -1,0 +1,153 @@
+/*
+
+>> PLANNER GRATIS >> HEADER
+
+*/
+
+header {
+  min-height: 300px;
+  background-color: var(--cor-branco);
+  background-image: url('../../../../images/pages/planner-gratis/background-header.png');
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  min-height: 90vh;
+}
+
+/* Formulario */
+
+header .formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 50px;
+}
+
+header .formulario form h2 {
+  font-family: var(--fonte-medium);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--cor-cinza-2);
+  width: 100%;
+  max-width: 400px;
+  margin: 0px 0px 20px 0px;
+}
+
+header .formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  background-color: var(--cor-branco);
+  box-shadow: 10px 10px 30px 0px rgba(53, 53, 88, 0.1);
+  border-radius: 15px;
+  padding: 50px 30px;
+}
+
+header .formulario form label {
+  font-family: var(--fonte-medium);
+  font-size: 0.9rem;
+  color: var(--cor-secundaria);
+}
+
+header .formulario form input {
+  font-family: var(--fonte-medium);
+  font-size: 1.1rem;
+  color: var(--cor-primaria);
+  border: 2px solid var(--cor-cinza-1);
+  width: 100%;
+  padding: 15px 18px;
+  margin: 5px 0px 20px 0px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+header .formulario form input::placeholder {
+  color: var(--cor-cinza-2);
+  opacity: 1;
+}
+
+header .formulario form input:focus {
+  border: 2px solid var(--cor-secundaria);
+}
+
+header .formulario form button {
+  font-family: var(--fonte-bold);
+  font-size: 1rem;
+  color: var(--cor-branco);
+  background-color: var(--cor-primaria);
+  padding: 13px 25px;
+  border-radius: 100px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+header .formulario form button span {
+  color: var(--cor-secundaria);
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+header .formulario form button:hover {
+  background-color: var(--cor-secundaria);
+}
+
+header .formulario form button:hover span {
+  color: var(--cor-primaria);
+}
+
+/* Texto */
+
+header .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  padding: 0px 100px;
+}
+
+header .texto h1 {
+  font-family: var(--fonte-regular);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--cor-cinza-2);
+  width: 100%;
+  max-width: 600px;
+}
+
+header .texto h1 span {
+  font-family: var(--fonte-medium);
+}
+
+header .texto h1 span.primaria {
+  color: var(--cor-primaria);
+}
+
+header .texto h1 span.secundaria {
+  color: var(--cor-secundaria);
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  header .texto {
+    padding: 0px 30px;
+  }
+  header .texto h1 {
+    font-size: 1.3rem;
+  }
+  header .formulario {
+    padding: 50px 30px 0px 30px;
+  }
+}

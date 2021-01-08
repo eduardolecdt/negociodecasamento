@@ -1,0 +1,58 @@
+/*
+
+>> PLANNER GRATIS >> SECTION > FRASE
+
+*/
+
+section.frase {
+  min-height: 300px;
+  background-color: var(--cor-primaria);
+  display: flex;
+  align-items: flex;
+  justify-content: flex-start;
+  text-align: left;
+  position: relative;
+  padding: 100px;
+}
+
+/* Imagem */
+
+section.frase img {
+  position: absolute;
+  right: 50px;
+  bottom: -50px;
+  width: 100%;
+  max-width: 250px;
+  z-index: 1;
+}
+
+/* Texto */
+
+section.frase h2 {
+  font-family: var(--fonte-regular);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 700px;
+  color: var(--cor-branco);
+}
+
+section.frase h2 span {
+  font-family: var(--fonte-medium);
+  color: var(--cor-secundaria);
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1100px) {
+  section.frase {
+    padding: 50px 30px 100px 30px;
+  }
+  section.frase img {
+    right: 30px;
+    max-width: 150px;
+  }
+  section.frase h2 {
+    font-size: 1.3rem;
+  }
+}

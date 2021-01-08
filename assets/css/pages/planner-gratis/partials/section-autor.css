@@ -1,0 +1,282 @@
+/*
+
+>> PLANNER GRATIS >> SECTION > AUTOR
+
+*/
+
+section.autor {
+  min-height: 300px;
+  background-color: var(--cor-cinza-1);
+  background-image: url('../../../../images/pages/index/background-garantia.png');
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px 150px 0px;
+  position: relative;
+}
+
+/* Enfeite */
+
+section.autor img.enfeite {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  left: 50px;
+  bottom: -50px;
+  transform: scaleX(-1);
+}
+
+/* Texto */
+
+section.autor .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 0px 50px;
+  width: 50%;
+}
+
+section.autor .texto p {
+  font-family: var(--fonte-regular);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 300px;
+  color: var(--cor-cinza-2);
+  padding: 0px 0px 30px 0px;
+}
+
+section.autor .texto h3 {
+  font-family: var(--fonte-medium);
+  font-size: 2rem;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 250px;
+  color: var(--cor-cinza-2);
+  padding: 0px 0px 20px 0px;
+}
+
+section.autor .texto a {
+  font-family: var(--fonte-bold);
+  font-size: 1rem;
+  color: var(--cor-branco);
+  background-color: var(--cor-primaria);
+  padding: 13px 25px;
+  border-radius: 100px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+section.autor .texto a span {
+  color: var(--cor-secundaria);
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+section.autor .texto a:hover {
+  background-color: var(--cor-secundaria);
+}
+
+section.autor .texto a:hover span {
+  color: var(--cor-primaria);
+}
+
+/* Instagram */
+
+section.autor .instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+  width: 100%;
+}
+
+section.autor .instagram .quadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-branco);
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 25px 35px 0px 10px rgb(169, 177, 183, 0.3);
+}
+
+/* Quadro > topo */
+
+section.autor .instagram .quadro .topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 10px 15px 15px;
+}
+
+section.autor .instagram .quadro .topo div {
+  height: 35px;
+  width: 35px;
+  min-height: 35px;
+  min-width: 35px;
+  background-color: var(--cor-primaria);
+  border-radius: 50%;
+}
+
+section.autor .instagram .quadro .topo p {
+  font-family: var(--fonte-medium);
+  font-size: 1rem;
+  color: var(--cor-primaria);
+  margin-right: auto;
+  padding: 0px 10px;
+}
+
+section.autor .instagram .quadro .topo img {
+  width: 100%;
+  max-width: 20px;
+  min-width: 20px;
+}
+
+/* Quadro > foto */
+
+section.autor .instagram .quadro div.foto {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  height: 300px;
+  background-color: var(--cor-secundaria);
+  background-image: url('../../../../images/pages/index/foto-autor.png');
+  background-size: cover;
+  background-position: top center;
+}
+
+/* Quadro > opcoes */
+
+section.autor .instagram .quadro .opcoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+}
+
+section.autor .instagram .quadro .opcoes img {
+  width: 25px;
+  max-width: 25px;
+  min-width: 25px;
+  margin-right: 10px;
+}
+
+section.autor .instagram .quadro .opcoes img.ultimo {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+/* Quadro > curtidas */
+
+section.autor .instagram .quadro .curtidas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px 15px 15px;
+  width: 100%;
+}
+
+section.autor .instagram .quadro .curtidas p {
+  font-family: var(--fonte-regular);
+  font-size: 0.9rem;
+  color: var(--cor-primaria);
+  margin-right: auto;
+  padding: 0px 0px 0px 10px;
+}
+
+section.autor .instagram .quadro .curtidas p span {
+  font-family: var(--fonte-medium);
+}
+
+section.autor .instagram .quadro .curtidas img {
+  width: 100%;
+  max-width: 25px;
+  min-width: 25px;
+}
+
+/* Quadro > curtidas */
+
+section.autor .instagram .quadro .sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 10px 0px 25px;
+  margin: 0px 15px 25px 0px;
+  width: 100%;
+  height: 250px;
+  min-height: 250px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+section.autor .instagram .quadro .sobre::-webkit-scrollbar-thumb {
+  background-color: var(--cor-cinza-2);
+}
+
+section.autor .instagram .quadro .sobre::-webkit-scrollbar-track {
+  background-color: var(--cor-cinza-1);
+}
+
+section.autor .instagram .quadro .sobre p {
+  font-family: var(--fonte-regular);
+  font-size: 1rem;
+  color: var(--cor-primaria);
+  line-height: 1.5;
+  padding-bottom: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+section.autor .instagram .quadro .sobre p span {
+  font-family: var(--fonte-medium);
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  section.autor {
+    flex-direction: column-reverse;
+    padding: 100px 0px 200px 0px;
+  }
+  section.autor .texto {
+    padding: 80px 30px 0px 30px;
+    width: 100%;
+  }
+  section.autor .texto p {
+    font-size: 1.2rem;
+  }
+  section.autor .texto h3 {
+    font-size: 1.6rem;
+  }
+  section.autor .texto h2 {
+    font-size: 2.7rem;
+  }
+  section.autor .instagram {
+    padding: 0px 30px;
+  }
+  section.autor .instagram .quadro {
+    box-shadow: 10px 15px 0px 5px rgb(169, 177, 183, 0.3);
+  }
+  section.autor img.enfeite.um {
+    max-width: 70px;
+    bottom: 10px;
+    right: 200px;
+    transform: rotate(-5deg);
+  }
+  section.autor img.enfeite.dois {
+    max-width: 150px;
+    bottom: 30px;
+    right: 20px;
+    transform: rotate(15deg);
+  }
+}

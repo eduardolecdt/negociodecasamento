@@ -1,0 +1,86 @@
+/*
+
+>> OBRIGADA >> HEADER
+
+*/
+
+header {
+  min-height: 300px;
+  background-color: var(--cor-branco);
+  background-image: url('../../../../images/pages/planner-gratis/background-header.png');
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Texto */
+
+header .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 100px 30px;
+}
+
+header .texto h1 {
+  font-family: var(--fonte-regular);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--cor-cinza-2);
+  width: 100%;
+  max-width: 700px;
+  padding: 0px 0px 20px 0px;
+}
+
+header .texto h1 span {
+  font-family: var(--fonte-medium);
+}
+
+header .texto h1 span.primaria {
+  color: var(--cor-primaria);
+}
+
+header .texto h1 span.secundaria {
+  color: var(--cor-secundaria);
+}
+
+header .texto button {
+  font-family: var(--fonte-bold);
+  font-size: 1.1rem;
+  color: var(--cor-branco);
+  background-color: var(--cor-primaria);
+  padding: 15px 25px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+header .texto button span {
+  color: var(--cor-secundaria);
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+header .texto button:hover {
+  background-color: var(--cor-secundaria);
+}
+
+header .texto button:hover span {
+  color: var(--cor-primaria);
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+  header .texto h1 {
+    font-size: 1.3rem;
+  }
+}
