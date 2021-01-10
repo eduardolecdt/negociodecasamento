@@ -34,7 +34,7 @@ header .texto h1 {
   line-height: 1.5;
   color: var(--cor-cinza-2);
   width: 100%;
-  max-width: 700px;
+  max-width: 550px;
   padding: 0px 0px 20px 0px;
 }
 
