@@ -9,14 +9,3 @@
 /* Partials */
 
 @import './partials/header.css';
-@import './partials/section-frase.css';
-@import './partials/section-autor.css';
-@import './partials/section-modulos.css';
-@import './partials/section-telas.css';
-@import './partials/section-bonus.css';
-@import './partials/section-publico.css';
-@import './partials/section-depoimentos.css';
-@import './partials/section-resumo.css';
-@import './partials/section-preco.css';
-@import './partials/section-garantia.css';
-@import './partials/footer.css';

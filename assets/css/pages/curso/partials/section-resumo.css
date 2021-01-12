@@ -7,7 +7,7 @@
 section.resumo {
   min-height: 300px;
   background-color: var(--cor-branco);
-  background-image: url('../../../../images/pages/index/background-resumo.png');
+  background-image: url('../../../../images/pages/curso/background-resumo.png');
   background-size: cover;
   background-position: top center;
   display: flex;
